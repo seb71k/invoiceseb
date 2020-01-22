@@ -1,3 +1,24 @@
+## install invoice
+create two tables:
+
+[ <b>invoiceseb_customer </b> ]
+id(int)
+idcustomer(int)
+dateinvoice(date)
+ninvoice(int)
+
+[ <b>invoiceseb_row</b> ]
+id (int)
+idinvoice (int)
+description (text)
+quantity (int)
+amount (float)
+amountvat (float)
+totwithvat (float)
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
